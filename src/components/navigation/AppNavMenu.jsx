@@ -4,6 +4,10 @@ import { AppBar, Box, Toolbar, IconButton, Typography } from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
 
 import { appBar, toolbarWrapper, flexAlignCenter, logoText, hideonMobile } from '../../styles/styles'
+import SearchBar from './SearchBar';
+import Userprofile from './Userprofile';
+import Notification from './Notification';
+import UplaodVideo from './UplaodVideo';
 
 
 function AppNavMenu(props) {
@@ -37,6 +41,20 @@ function AppNavMenu(props) {
 
 
                         </Box>
+                        <Box sx={flexAlignCenter}>
+                            <SearchBar/>
+                        </Box>
+
+                       
+
+                        <Box sx={flexAlignCenter}>
+                          <UplaodVideo/>
+                          <Notification/>
+                           <Userprofile/>
+                        </Box>
+
+
+
                     </Box>
                 </Toolbar>
             </AppBar>

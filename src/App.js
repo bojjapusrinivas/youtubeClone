@@ -1,8 +1,10 @@
 
 import './App.css';
-import { Typography, Box } from '@mui/material';
-import AppNavMenu from './components/navigation/AppNavMenu';
 import { appWrapper } from './styles/styles'
+import AppNavMenu from './components/navigation/AppNavMenu';
+
+import {Box} from "@mui/material"
+
 
 
 
@@ -13,10 +15,8 @@ function App() {
     <div className="App">
       <Box sx={appWrapper}>
         <AppNavMenu />
-
+        
       </Box>
-
-
     </div >
   );
 }
