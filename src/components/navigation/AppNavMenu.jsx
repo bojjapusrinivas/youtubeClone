@@ -42,15 +42,15 @@ function AppNavMenu(props) {
 
                         </Box>
                         <Box sx={flexAlignCenter}>
-                            <SearchBar/>
+                            <SearchBar />
                         </Box>
 
-                       
+
 
                         <Box sx={flexAlignCenter}>
-                          <UplaodVideo/>
-                          <Notification/>
-                           <Userprofile/>
+                            <UplaodVideo />
+                            <Notification />
+                            <Userprofile />
                         </Box>
 
 
